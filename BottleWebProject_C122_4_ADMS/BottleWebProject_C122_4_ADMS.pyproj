@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="graph.html" />
+    <Content Include="static\content\Var1Stylesheet.css" />
     <Content Include="static\images\Artemia.jpg" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />

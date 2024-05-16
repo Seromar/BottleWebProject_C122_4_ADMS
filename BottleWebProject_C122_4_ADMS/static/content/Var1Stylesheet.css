@@ -1,0 +1,123 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto; /* Центрирование по горизонтали */
+    padding: 0;
+    width: 70%; /* Ширина 70% */
+    background-color: #000; /* Черный фон */
+    color: #fff; /* Белый текст */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #32CD32; /* Зеленый неоновый */
+    font-size: 1.5em;
+}
+
+p, ol, li {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.formula {
+    background-color: #3E3E3E; /* Зеленый неоновый */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    background-color: #32CD32; /* Зеленый неоновый */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+    input[type="radio"]:checked + label {
+        background-color: #ffffff;
+        color: #32CD32; /* Зеленый неоновый */
+    }
+
+#theorySection {
+    display: block;
+}
+
+#calculatorSection {
+    display: none;
+}
+
+.section {
+    display: none;
+}
+
+.matrix-input {
+    margin-bottom: 8px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+    .matrix-input:focus {
+        border-color: #32CD32; /* Зеленый неоновый */
+        outline: none;
+    }
+
+.calc {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000; /* Черный фон */
+    color: 32CD32; /* Белый текст */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Добавлен переход для цвета рамки */
+    border: 2px solid #FFFFFF; /* Белая рамка */
+    font-size: 1.2em;
+}
+
+    .button:hover {
+        background-color: #32CD32; /* Зеленый фон при наведении */
+        color: #000000; /* Белый текст */
+        border-color: #32CD32; /* Зеленая рамка при наведении */
+    }
+
+
+.content-container {
+    text-align: center;
+}
+
+#matrix-size option:hover {
+    background-color: #32CD32; /* Зеленый неоновый */
+    color: #ffffff;
+}
+
+#teacher-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
