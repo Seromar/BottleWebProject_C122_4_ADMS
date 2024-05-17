@@ -5,7 +5,50 @@ body {
     width: 70%; /* Ширина 70% */
     background-color: #000; /* Черный фон */
     color: #fff; /* Белый текст */
+    margin-top: 70px;
 }
+
+.theory-block {
+    border-radius: 10px;
+    border: 2px solid #32CD32;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+    .theory-block h2 {
+        color: #32CD32;
+        text-align: center;
+    }
+
+    .theory-block p {
+        text-align: justify;
+        margin-bottom: 0;
+    }
+
+.navbar-nav {
+    white-space: nowrap; /* предотвращает перенос элементов навигации на новую строку */
+}
+
+    .navbar-nav > li {
+        display: inline-block;
+        float: none; /* Сбросьте плавающие элементы */
+    }
+
+        .navbar-nav > li > a {
+            display: inline-block;
+            white-space: nowrap; /* предотвращает перенос текста внутри ссылки */
+            color: #32CD32; /* Зеленый неоновый */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .navbar-nav > li > a:hover {
+                background-color: #32CD32; /* Зеленый фон при наведении */
+                color: #000; /* Черный текст при наведении */
+            }
 
 h1, h2 {
     text-align: center;
@@ -115,9 +158,4 @@ input[type="radio"] {
 #matrix-size option:hover {
     background-color: #32CD32; /* Зеленый неоновый */
     color: #ffffff;
-}
-
-#teacher-img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
 }

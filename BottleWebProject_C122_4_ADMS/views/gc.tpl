@@ -211,7 +211,7 @@
 
                             <li class="item-103"><a href="/sbo">Свойство бинарных отношений</a></li>
                             <li class="item-104"><a href="/max">Максимальный поток в сети</a></li>
-                            <li class="item-105"><a href="/gc">Гамельтонов цикл</a></li>
+                            <li class="item-105"><a href="/gc">Гамильтонов цикл</a></li>
                             <li class="item-106"><a href="/about">Об авторах</a></li>
                             <li class="item-107">
                                 <a href="/#mod-form1"></a>
@@ -232,7 +232,7 @@
                             <div class="introtext">
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <p class="h1 wow fadeInLeft delay-1" style="visibility: visible; animation-name: fadeInLeft;">Гамельтонов цикл</p>
+                                        <p class="h1 wow fadeInLeft delay-1" style="visibility: visible; animation-name: fadeInLeft;">Гамильтонов цикл</p>
                                     </div>
                                     <div>
                                         <img src="https://i.gifer.com/embedded/download/4cd1.gif" alt="гифка" style="width: 350px; height: 250px; margin-left: 200px; animation: fadeInRight 2s ease forwards;">
@@ -243,17 +243,24 @@
                     </div>
                 </div>
 
-                <div class="moduletable mod-about">
-                    <div class="h2 mb-5 text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; margin-top: -200px; font-size: 40px;">Теоретический материал</div>
-                    <div class="introtext">
-                        <div class="row justify-content-center">
-                            <div class="col-md-6 col-lg-3 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                                <div class="h3 mb-3 text-center">Гамельтонов цикл</div>
-                                <p class="text-center">Содержимое столбца 1</p>
-                            </div>
-                        </div>
-                    </div>
+                <<div class="moduletable mod-about">
+    <div class="h2 mb-5 text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; margin-top: -200px; font-size: 40px;">Теоретический материал</div>
+    <div class="introtext">
+        <div class="row">
+            <div class="col-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; padding-left: 15%; padding-right: 15%;">
+                <div class="h3 mb-3 text-center">Гамильтонов цикл</div>
+                <p>Гамильтонов цикл в графе — это подграф и цикл, который включает в себя все вершины графа. Граф, в котором есть гамильтонов цикл, называется гамильтоновым. Гамильтонов путь — это подграф-путь, который проходит через все вершины графа, не повторяясь:</p>
+                <!-- Добавление изображения -->
+                <div class="text-center">
+                    <img src="\static\images\cycleexample.jpg" alt="Описание изображения" style="max-width: 100%; height: auto; margin-top: 20px;">
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 
 

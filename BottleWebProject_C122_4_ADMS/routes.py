@@ -41,3 +41,12 @@ def asymmetryAntitransitivityReverse():
         message='Your application math page.',
         year=datetime.now().year
     )
+@route('/gc')
+@view('gc')
+def about():
+    """Renders the about page."""
+    return dict(
+        title='gc',
+        message='Your application description page.',
+        year=datetime.now().year
+    )

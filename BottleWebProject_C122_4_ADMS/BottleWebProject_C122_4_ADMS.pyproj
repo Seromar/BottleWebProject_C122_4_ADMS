@@ -18,11 +18,10 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>BottleWebProject_C122_4_ADMS</Name>
     <RootNamespace>BottleWebProject_C122_4_ADMS</RootNamespace>
-<<<<<<< HEAD
-    <InterpreterId>MSBuild|env3|$(MSBuildProjectFullPath)</InterpreterId>
-=======
     <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
->>>>>>> 47f6dc814c0c4bbfd0cc9d0915dfb0d219e4df19
+
+    <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -52,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="graph.html" />
-
+    <Content Include="static\content\Var1Stylesheet.css" />
     <Content Include="static\images\Artemia.jpg" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
@@ -63,11 +62,13 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\images\CirlceBinary.gif" />
+    <Content Include="static\images\cycleexample.jpg" />
     <Content Include="static\images\Dinar.jpeg" />
     <Content Include="static\images\Said.jpeg" />
     <Content Include="static\images\Said.jpg" />
     <Content Include="static\images\Slupchuk.jpg" />
     <Content Include="static\images\SmallCirlce.gif" />
+    <Content Include="static\scripts\BinaryVar1.js" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
@@ -86,6 +87,7 @@
     <Content Include="views\about.tpl" />
     <Content Include="views\asymmetryAntitransitivityReverse.tpl" />
     <Content Include="views\contact.tpl" />
+    <Content Include="views\gc.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
   </ItemGroup>
