@@ -19,6 +19,7 @@
     <Name>BottleWebProject_C122_4_ADMS</Name>
     <RootNamespace>BottleWebProject_C122_4_ADMS</RootNamespace>
     <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env3|$(MSBuildProjectFullPath)</InterpreterId>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -49,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="graph.html" />
+    <Content Include="static\content\card.css" />
+    <Content Include="static\content\StylesheetSlup.css" />
     <Content Include="static\content\Var1Stylesheet.css" />
     <Content Include="static\images\Artemia.jpg" />
     <Content Include="requirements.txt" />
@@ -66,6 +69,7 @@
     <Content Include="static\images\Said.jpg" />
     <Content Include="static\images\Slupchuk.jpg" />
     <Content Include="static\images\SmallCirlce.gif" />
+    <Content Include="static\scripts\Assymetrical.js" />
     <Content Include="static\scripts\BinaryVar1.js" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
