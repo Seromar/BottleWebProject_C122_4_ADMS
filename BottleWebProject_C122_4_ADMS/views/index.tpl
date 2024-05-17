@@ -5,7 +5,7 @@
 	<base href="/">
 	<meta name="author" content="Super User">
 	<meta name="generator" content="">
-	<title>Математическое моделирование</title>
+	<title>РњР°С‚РµРјР°С‚РёС‡РµСЃРєРѕРµ РјРѕРґРµР»РёСЂРѕРІР°РЅРёРµ</title>
 	<link href="assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 	<link href="https://gg.looknewsite.ru/assets/bootstrap.min.css" rel="stylesheet">
 	<link href="https://gg.looknewsite.ru//assets/bootstrap-select.min.css" rel="stylesheet">
@@ -81,32 +81,32 @@
         }
 
         #top_menu .nav.menu li {
-            white-space: nowrap; /* Предотвращает перенос элементов на новую строку */
+            white-space: nowrap; /* РџСЂРµРґРѕС‚РІСЂР°С‰Р°РµС‚ РїРµСЂРµРЅРѕСЃ СЌР»РµРјРµРЅС‚РѕРІ РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ */
         }
 
         #top_menu .nav.menu li {
-            white-space: nowrap; /* Предотвращает перенос элементов на новую строку */
-            margin-right: 35px; /* Установите нужный размер отступа */
-            opacity: 0; /* Устанавливаем начальную прозрачность */
-            transform: translateY(-50px); /* Начальное положение элементов */
-            animation: fadeInDown 2s ease forwards; /* Применяем анимацию */
+            white-space: nowrap; /* РџСЂРµРґРѕС‚РІСЂР°С‰Р°РµС‚ РїРµСЂРµРЅРѕСЃ СЌР»РµРјРµРЅС‚РѕРІ РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ */
+            margin-right: 35px; /* РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РЅСѓР¶РЅС‹Р№ СЂР°Р·РјРµСЂ РѕС‚СЃС‚СѓРїР° */
+            opacity: 0; /* РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј РЅР°С‡Р°Р»СЊРЅСѓСЋ РїСЂРѕР·СЂР°С‡РЅРѕСЃС‚СЊ */
+            transform: translateY(-50px); /* РќР°С‡Р°Р»СЊРЅРѕРµ РїРѕР»РѕР¶РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ */
+            animation: fadeInDown 2s ease forwards; /* РџСЂРёРјРµРЅСЏРµРј Р°РЅРёРјР°С†РёСЋ */
         }
 
         @keyframes fadeInDown {
             from {
-                opacity: 0; /* Начальная прозрачность */
-                transform: translateY(-50px); /* Начальное положение */
+                opacity: 0; /* РќР°С‡Р°Р»СЊРЅР°СЏ РїСЂРѕР·СЂР°С‡РЅРѕСЃС‚СЊ */
+                transform: translateY(-50px); /* РќР°С‡Р°Р»СЊРЅРѕРµ РїРѕР»РѕР¶РµРЅРёРµ */
             }
             to {
-                opacity: 1; /* Конечная прозрачность */
-                transform: translateY(0); /* Конечное положение */
+                opacity: 1; /* РљРѕРЅРµС‡РЅР°СЏ РїСЂРѕР·СЂР°С‡РЅРѕСЃС‚СЊ */
+                transform: translateY(0); /* РљРѕРЅРµС‡РЅРѕРµ РїРѕР»РѕР¶РµРЅРёРµ */
             }
         }
 
         
 
        #top_menu .nav.menu li a:hover {
-            color: #32CD32; /* Здесь указываете желаемый зеленый цвет текста */
+            color: #32CD32; /* Р—РґРµСЃСЊ СѓРєР°Р·С‹РІР°РµС‚Рµ Р¶РµР»Р°РµРјС‹Р№ Р·РµР»РµРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° */
         }
 
 
@@ -114,21 +114,21 @@
 
         #top_menu ul {
             display: flex;
-            flex-wrap: nowrap; /* запрещаем перенос элементов на новую строку */
-            justify-content: space-between; /* равномерное распределение элементов по горизонтали */
-            align-items: center; /* выравнивание элементов по вертикали */
+            flex-wrap: nowrap; /* Р·Р°РїСЂРµС‰Р°РµРј РїРµСЂРµРЅРѕСЃ СЌР»РµРјРµРЅС‚РѕРІ РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ */
+            justify-content: space-between; /* СЂР°РІРЅРѕРјРµСЂРЅРѕРµ СЂР°СЃРїСЂРµРґРµР»РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
+            align-items: center; /* РІС‹СЂР°РІРЅРёРІР°РЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РїРѕ РІРµСЂС‚РёРєР°Р»Рё */
         }
 
         .moduletable.mod-about .introtext {
-            color: #32CD32; /* Зеленый цвет текста */
+            color: #32CD32; /* Р—РµР»РµРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° */
         }
 
         .moduletable.mod-about .h2 {
-            color: #32CD32; /* Зеленый цвет текста */
+            color: #32CD32; /* Р—РµР»РµРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° */
         }
 
         .title:hover {
-            transform: scale(1.1); /* Увеличиваем размер текста на 10% при наведении курсора */
+            transform: scale(1.1); /* РЈРІРµР»РёС‡РёРІР°РµРј СЂР°Р·РјРµСЂ С‚РµРєСЃС‚Р° РЅР° 10% РїСЂРё РЅР°РІРµРґРµРЅРёРё РєСѓСЂСЃРѕСЂР° */
         }
 
 
@@ -158,19 +158,19 @@
                     <div id="top_menu" class="navbar-nav ml-5 w-100">
                         <ul class="nav menu w-100 justify-content-between align-items-center header-top-menu mod-list">
                             
-                            <li class="item-102"><a href="/home">Главная</a></li>
+                            <li class="item-102"><a href="/home">Р“Р»Р°РІРЅР°СЏ</a></li>
                             
-                            <li class="item-102"><a href="/vbo">Вид бинарных отношений</a></li>
+                            <li class="item-102"><a href="/vbo">Р’РёРґ Р±РёРЅР°СЂРЅС‹С… РѕС‚РЅРѕС€РµРЅРёР№</a></li>
 
-                            <li class="item-103"><a href="/sbo">Свойство бинарных отношений</a></li>
-                            <li class="item-104"><a href="/max">Максимальный поток в сети</a></li>
-                            <li class="item-105"><a href="/gc">Гамельтонов цикл</a></li>
-                            <li class="item-106"><a href="/about">Об авторах</a></li>
+                            <li class="item-103"><a href="/sbo">РЎРІРѕР№СЃС‚РІРѕ Р±РёРЅР°СЂРЅС‹С… РѕС‚РЅРѕС€РµРЅРёР№</a></li>
+                            <li class="item-104"><a href="/max">РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ РїРѕС‚РѕРє РІ СЃРµС‚Рё</a></li>
+                            <li class="item-105"><a href="/gc">Р“Р°РјРµР»СЊС‚РѕРЅРѕРІ С†РёРєР»</a></li>
+                            <li class="item-106"><a href="/about">РћР± Р°РІС‚РѕСЂР°С…</a></li>
                             <li class="item-107">
                                 <a href="/#mod-form1"></a>
                             </li>
                             <li class="item-112 work-in-pride-link">
-                                <a href="http://workinpride.ru/rus" class="work-in-pride-link" target="_blank" rel="noopener noreferrer">Работай в компании Green Pride</a>
+                                <a href="http://workinpride.ru/rus" class="work-in-pride-link" target="_blank" rel="noopener noreferrer">Р Р°Р±РѕС‚Р°Р№ РІ РєРѕРјРїР°РЅРёРё Green Pride</a>
                             </li>
                         </ul>
                     </div>
@@ -185,10 +185,10 @@
                             <div class="introtext">
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <p class="h1 wow fadeInLeft delay-1" style="visibility: visible; animation-name: fadeInLeft;">Математическое моделирование</p>
+                                        <p class="h1 wow fadeInLeft delay-1" style="visibility: visible; animation-name: fadeInLeft;">РњР°С‚РµРјР°С‚РёС‡РµСЃРєРѕРµ РјРѕРґРµР»РёСЂРѕРІР°РЅРёРµ</p>
                                     </div>
                                     <div>
-                                        <img src="https://i.gifer.com/embedded/download/4cd1.gif" alt="гифка" style="width: 350px; height: 250px; margin-left: 200px; animation: fadeInRight 2s ease forwards;">
+                                        <img src="https://i.gifer.com/embedded/download/4cd1.gif" alt="РіРёС„РєР°" style="width: 350px; height: 250px; margin-left: 200px; animation: fadeInRight 2s ease forwards;">
                                     </div>
                                 </div>
                             </div>
@@ -197,24 +197,24 @@
                 </div>
 
                 <div class="moduletable mod-about">
-                    <div class="h2 mb-5 text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; margin-top: -200px; font-size: 40px;">Теоретический материал</div>
+                    <div class="h2 mb-5 text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; margin-top: -200px; font-size: 40px;">РўРµРѕСЂРµС‚РёС‡РµСЃРєРёР№ РјР°С‚РµСЂРёР°Р»</div>
                     <div class="introtext">
                         <div class="row">
                             <div class="col-md-6 col-lg-3 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                                <div class="h3 mb-3">Вид бинарных отношений</div>
-                                <p>Содержимое столбца 1</p>
+                                <div class="h3 mb-3">Р’РёРґ Р±РёРЅР°СЂРЅС‹С… РѕС‚РЅРѕС€РµРЅРёР№</div>
+                                <p>РЎРѕРґРµСЂР¶РёРјРѕРµ СЃС‚РѕР»Р±С†Р° 1</p>
                             </div>
                             <div class="col-md-6 col-lg-3 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                                <div class="h3 mb-3">Свойство бинарных отношений</div>
-                                <p>Содержимое столбца 2</p>
+                                <div class="h3 mb-3">РЎРІРѕР№СЃС‚РІРѕ Р±РёРЅР°СЂРЅС‹С… РѕС‚РЅРѕС€РµРЅРёР№</div>
+                                <p>РЎРѕРґРµСЂР¶РёРјРѕРµ СЃС‚РѕР»Р±С†Р° 2</p>
                             </div>
                             <div class="col-md-6 col-lg-3 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                                <div class="h3 mb-3">Максимальный поток в сети</div>
-                                <p>Содержимое столбца 3</p>
+                                <div class="h3 mb-3">РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ РїРѕС‚РѕРє РІ СЃРµС‚Рё</div>
+                                <p>РЎРѕРґРµСЂР¶РёРјРѕРµ СЃС‚РѕР»Р±С†Р° 3</p>
                             </div>
                             <div class="col-md-6 col-lg-3 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                                <div class="h3 mb-3">Гамельтонов цикл</div>
-                                <p>Содержимое столбца 4</p>
+                                <div class="h3 mb-3">Р“Р°РјРµР»СЊС‚РѕРЅРѕРІ С†РёРєР»</div>
+                                <p>РЎРѕРґРµСЂР¶РёРјРѕРµ СЃС‚РѕР»Р±С†Р° 4</p>
                             </div>
                         </div>
                     </div>
@@ -223,37 +223,37 @@
 
                    
                 <div class="moduletable mod-services text-center">
-                    <div class="h2 mb-5 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; margin-top: -30px; color: white;">Вычисления бинарного отношения</div>
+                    <div class="h2 mb-5 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; margin-top: -30px; color: white;">Р’С‹С‡РёСЃР»РµРЅРёСЏ Р±РёРЅР°СЂРЅРѕРіРѕ РѕС‚РЅРѕС€РµРЅРёСЏ</div>
                     <div class="row">
                         <div class="col-6 col-sm-3 my-3 wow fadeInUp delay-1" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Зеленый фон -->
+                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Р—РµР»РµРЅС‹Р№ С„РѕРЅ -->
                                 <div class="card-body py-5 d-flex flex-column justify-content-center align-items-center" style="background-color: black; border: 3px solid white;">
                                     
-                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">ВБО</div> <!-- Зеленый цвет текста -->
+                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">Р’Р‘Рћ</div> <!-- Р—РµР»РµРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-sm-3 my-3 wow fadeInUp delay-2" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Зеленый фон -->
+                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Р—РµР»РµРЅС‹Р№ С„РѕРЅ -->
                                 <div class="card-body py-5 d-flex flex-column justify-content-center align-items-center" style="background-color: black; border: 3px solid white;">
                                     
-                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">СБО</div> <!-- Зеленый цвет текста -->
+                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">РЎР‘Рћ</div> <!-- Р—РµР»РµРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-sm-3 my-3 wow fadeInUp delay-3" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Зеленый фон -->
+                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Р—РµР»РµРЅС‹Р№ С„РѕРЅ -->
                                 <div class="card-body py-5 d-flex flex-column justify-content-center align-items-center" style="background-color: black; border: 3px solid white;">
                                     
-                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">МПвС</div> <!-- Зеленый цвет текста -->
+                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">РњРџРІРЎ</div> <!-- Р—РµР»РµРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-sm-3 my-3 wow fadeInUp delay-2" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Зеленый фон -->
+                            <div class="card card-services" style="background-color: #32CD32;"> <!-- Р—РµР»РµРЅС‹Р№ С„РѕРЅ -->
                                 <div class="card-body py-5 d-flex flex-column justify-content-center align-items-center" style="background-color: black; border: 3px solid white;">
                                     
-                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">ГЦ</div> <!-- Зеленый цвет текста -->
+                                    <div class="title pt-4" style="color: #32CD32; font-size: 80px; transition: transform 0.3s;">Р“Р¦</div> <!-- Р—РµР»РµРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° -->
                                 </div>
                             </div>
                         </div>
@@ -269,7 +269,7 @@
     </div>
     <footer class="footer text-center">
         <div class="container">
-            <p style="color: #f0f0f0;">&copy; 2024 Все права защищены</p>
+            <p style="color: #f0f0f0;">&copy; 2024 Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹</p>
         </div>
     </footer>
 
