@@ -33,3 +33,11 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+@route('/asymmetryAntitransitivityReverse')
+@view('asymmetryAntitransitivityReverse')
+def asymmetryAntitransitivityReverse():
+    return dict(
+        title='Assymetric Antitransitivity Reverse',
+        message='Your application math page.',
+        year=datetime.now().year
+    )
