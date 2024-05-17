@@ -1,0 +1,146 @@
+div.moduletable.mod-slider.bg-color.text-white::before {
+    background: black !important;
+}
+
+div.card-body.new-card::before {
+    content: none !important;
+    background: none !important;
+}
+
+.mod-slider.bg-color {
+    background-color: black !important;
+}
+
+.mod-slider .row.align-items-end .col-10 .introtext {
+    background-color: black !important;
+}
+
+#navbar {
+    background-color: black;
+}
+
+div.card-body.new-card {
+    background-color: lightblue;
+}
+
+body {
+    background-color: black;
+}
+
+.mod-slider {
+    background-color: black;
+}
+
+.new-card {
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+}
+
+.mod-about {
+    background-color: black;
+}
+
+#top_menu .nav.menu li {
+    white-space: nowrap; /* Предотвращает перенос элементов на новую строку */
+}
+
+#top_menu .nav.menu li {
+    white-space: nowrap; /* Предотвращает перенос элементов на новую строку */
+    margin-right: 35px; /* Установите нужный размер отступа */
+    opacity: 0; /* Устанавливаем начальную прозрачность */
+    transform: translateY(-50px); /* Начальное положение элементов */
+    animation: fadeInDown 2s ease forwards; /* Применяем анимацию */
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0; /* Начальная прозрачность */
+        transform: translateY(-50px); /* Начальное положение */
+    }
+
+    to {
+        opacity: 1; /* Конечная прозрачность */
+        transform: translateY(0); /* Конечное положение */
+    }
+}
+
+#top_menu .nav.menu li a:hover {
+    color: #32CD32; /* Здесь указываете желаемый зеленый цвет текста */
+}
+
+#top_menu ul {
+    display: flex;
+    flex-wrap: nowrap; /* запрещаем перенос элементов на новую строку */
+    justify-content: space-between; /* равномерное распределение элементов по горизонтали */
+    align-items: center; /* выравнивание элементов по вертикали */
+}
+
+.moduletable.mod-about .introtext {
+    color: #32CD32; /* Зеленый цвет текста */
+}
+
+.moduletable.mod-about .h2 {
+    color: #32CD32; /* Зеленый цвет текста */
+}
+
+.title:hover {
+    transform: scale(1.1); /* Увеличиваем размер текста на 10% при наведении курсора */
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+#graph-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#graph-image {
+    max-width: 80%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+#result-message {
+    text-align: center;
+    font-weight: bold;
+}

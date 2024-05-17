@@ -273,57 +273,30 @@
 
 
 
-
-
-
-
-
-               
-
-                <form id="graph-form" style="margin-top: 20px;">
-                    <div class="form-group" style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-                        <label for="vertex-count" style="font-size: 18px; color: #32CD32; margin-right: 10px; display: flex; align-items: center;">Количество вершин:</label>
-                        <input type="number" id="vertex-count" name="vertex-count" min="2" required style="font-size: 16px; color: #000;">
-                    </div>
-                    <div class="form-group" style="margin-bottom: 10px; text-align: center;">
-                        <label style="font-size: 18px; color: #32CD32; display: block; margin-bottom: 5px;">Матрица смежности:</label>
-                        <div id="matrix-input">
-                            <!-- JavaScript will dynamically add input fields here -->
-                        </div>
-                    </div>
-                    <div style="text-align: center;">
-                        <button type="submit" style="font-size: 18px; color: #000; background-color: #fff; border: 2px solid #32CD32; padding: 10px 20px; cursor: pointer;">Найти цикл</button>
-                    </div>
-                </form>
-
-
-
-
-                <div id="graph-container" style="display: none; margin-top: 20px;" class="wow fadeInUp">
-                    <img id="graph-image" src="" alt="Граф">
-                </div>
-
-                <div id="result-container" style="display: none; margin-top: 20px;" class="wow fadeInUp">
-                    <h2 style="font-size: 24px; color: #32CD32;">Результат</h2>
-                    <p id="result-message" style="font-size: 18px; color: #000;"></p>
-                </div>
-
-                <!-- Include Wow.js and Animate.css for animations -->
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-                <script>
-                    new WOW().init();
-                </script>
-
-
-
-                   
-                
-
-
-
-
-
+<div id="calculatorSection" class="section">
+            <!-- Калькулятор -->
+            <h1>Калькулятор</h1>
+  
+            <!-- Ваш HTML для калькулятора -->
+            <p class="calc" for="matrix-size" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Выберите размер матрицы:</p>
+            <select id="matrix-size" 
+                style="display: block; margin: 0 auto; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.1em;"
+                onchange="handleMatrixSizeChange()">
+                <option value="2">2x2</option>
+                <option value="3">3x3</option>
+                <option value="4">4x4</option>
+                <option value="5">5x5</option>
+                <option value="6">6x6</option>
+                <option value="7">7x7</option>
+                <option value="8">8x8</option>
+                <option value="9">9x9</option>
+                <option value="10">10x10</option>
+            </select>
+            <div id="matrix-container" style="display: block; margin: 0 auto; text-align: center; font-size: 1.1em;"></div>
+            <div class="button-container">
+                <div class="button" onclick="generateMatrixInputs(parseInt(document.getElementById('matrix-size').value));">Решить</div>
+            </div>
+        </div>
             </div>
         </div>
     </div>
