@@ -82,6 +82,7 @@
     <Content Include="views\about.tpl" />
     <Content Include="views\asymmetryAntitransitivityReverse.tpl" />
     <Content Include="views\contact.tpl" />
+    <Content Include="views\gc.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
   </ItemGroup>
