@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="graph.html" />
-
     <Content Include="static\images\Artemia.jpg" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
@@ -59,6 +58,7 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="static\images\CirlceBinary.gif" />
+    <Content Include="static\images\cycleexample.jpg" />
     <Content Include="static\images\Dinar.jpeg" />
     <Content Include="static\images\Said.jpeg" />
     <Content Include="static\images\Said.jpg" />
