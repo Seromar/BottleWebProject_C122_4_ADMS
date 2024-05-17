@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto; 
+    padding: 0;
+    width: 70%; 
+    background-color: #000; 
+    color: #fff; 
+}
+
+h1, h2 {
+    text-align: center;
+    color: #32CD32; 
+    font-size: 1.5em;
+}
+
+p, ol, li {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.formula {
+    background-color: #3E3E3E; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    background-color: #32CD32; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+    input[type="radio"]:checked + label {
+        background-color: #ffffff;
+        color: #32CD32; 
+    }
+
+#theorySection {
+    display: block;
+}
+
+#calculatorSection {
+    display: none;
+}
+
+.section {
+    display: none;
+}
+
+.matrix-input {
+    margin-bottom: 8px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+    .matrix-input:focus {
+        border-color: #32CD32; 
+        outline: none;
+    }
+
+.calc {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000; 
+    color: 32CD32; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
+    border: 2px solid #FFFFFF; 
+    font-size: 1.2em;
+}
+
+    .button:hover {
+        background-color: #32CD32; 
+        color: #000000; 
+        border-color: #32CD32; 
+    }
+
+
+.content-container {
+    text-align: center;
+}
+
+#matrix-size option:hover {
+    background-color: #32CD32; 
+    color: #ffffff;
+}
+
+#teacher-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
