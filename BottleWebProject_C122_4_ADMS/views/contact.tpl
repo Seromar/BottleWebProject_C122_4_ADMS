@@ -87,8 +87,10 @@
             <div class="button-container">
                 <div class="button" onclick="generateMatrixInputs(parseInt(document.getElementById('matrix-size').value));">Решить</div>
             </div>
-        </div>
 
+           
+        </div>
+       
 
         
     </div>
