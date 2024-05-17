@@ -1,4 +1,5 @@
-﻿% rebase('layout.tpl', title='Assymetric Antitransitivity Reverse', year=year)
+﻿ 
+% rebase('layout.tpl', title='Assymetric Antitransitivity Reverse', year=year)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,11 +10,10 @@
     <link rel="stylesheet" href="static/content/StylesheetSlup.css">
 </head>
 <body>
-    <h1>Свойства Бинарных Отношений</h1>
+    <h1>Виды бинарных Отношений</h1>
      <div class="button-container">
         <div class="button" id="showTheory">Теория</div>
         <div class="button" id="showCalculator">Калькулятор</div>
-        <a href="https://giphy.com/gifs/animation-retro-sphere-l2SpSuTbUFcBg3UT6" target="_blank"><img id="teacher-img" src="/static/images/CirlceBinary.gif" alt="derty" style="float: left; margin-right: 20px; width: 400px; height: 400px; vertical-align: center;"></a>
 
     </div>
 
@@ -22,6 +22,7 @@
             <!-- Теория -->
             <h1>Обратное бинарное отношение</h1>
             <p>Обратное бинарное отношение - это концепция из математики и теории отношений, которая возникает в контексте пар элементов, где порядок играет важную роль. Давайте разберемся более подробно.</p>
+                    <a target="_blank"><img id="teacher-img" src="/static/images/CirlceBinary.gif" alt="derty" style="float: left; margin-right: 20px; width: 400px; height: 400px; vertical-align: center;"></a>
 
             <ol>
                 <li>

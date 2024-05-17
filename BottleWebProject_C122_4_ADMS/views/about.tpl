@@ -13,10 +13,7 @@
 
 </head>
 <body>
-
-
-
-       
+      
         <div class="center-container">
             <div class="card-container">
                 <div class="card">
