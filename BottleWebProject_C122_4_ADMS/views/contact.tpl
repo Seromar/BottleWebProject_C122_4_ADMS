@@ -25,7 +25,7 @@
             <h2>Основные свойства бинарных отношений во множестве А</h2>
 
            
-            <div class="theory-block">
+            <div class="theory-block animate-from-left">
             <img id="teacher-img" src="https://media.giphy.com/media/l2SpSuTbUFcBg3UT6/giphy.gif" alt="derty" style="float: left; margin-right: 20px; width: 400px; height: 500px; vertical-align: middle;">
 
             <p>Пусть R – бинарное отношение в А, т.е. R ⊂ А2.</p>
@@ -42,7 +42,7 @@
             </div>
 
             <h2>Виды бинарных отношений во множестве</h2>
-            <div class="theory-block">
+            <div class="theory-block animate-from-bottom-right">
             <p>Отношение R в А называется отношением эквивалентности, если оно рефлексивно, симметрично и транзитивно. Напр.: отношения «равенства», «параллельности прямых», «подобия фигур»,…</p>
             <p>Отношения эквивалентности представляют особый интерес, т.к. именно они определяют признак, который допускает разбиение множества А на непересекающиеся подмножества, называемые классами эквивалентности.</p>
             <p><strong>Дополнительное отношение к данному:</strong> Для получения дополнительного отношения к бинарному отношению можно использовать операции такие как объединение, пересечение, разность или дополнение.</p>
@@ -52,7 +52,7 @@
             relation = {('Alice', 20), ('Bob', 25), ('Alice', 30)}
             </div>
 
-            <div class="theory-block">
+            <div class="theory-block animate-from-left">
             <p>Чтобы получить дополнительное отношение к этому бинарному отношению, вы можете выполнить различные операции:</p>
             <ol>
                 <li><strong>Объединение (union):</strong> Получить все уникальные элементы из двух отношений.</li>
@@ -87,9 +87,14 @@
             <div class="button-container">
                 <div class="button" onclick="generateMatrixInputs(parseInt(document.getElementById('matrix-size').value));">Решить</div>
             </div>
+
+            <div class="theory-block">
+            <h2>Решение</h2>
+            </div>
+            
         </div>
 
-
+        
         
     </div>
     </div>
