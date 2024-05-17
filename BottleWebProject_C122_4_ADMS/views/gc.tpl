@@ -243,21 +243,35 @@
                     </div>
                 </div>
 
-                <<div class="moduletable mod-about">
-    <div class="h2 mb-5 text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; margin-top: -200px; font-size: 40px;">Теоретический материал</div>
+                <div class="moduletable mod-about" style="padding: 20px; border: 2px solid #32CD32; border-radius: 10px;">
+    <div class="h2 mb-5 text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; font-size: 40px;">Теоретический материал</div>
     <div class="introtext">
         <div class="row">
             <div class="col-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; padding-left: 15%; padding-right: 15%;">
                 <div class="h3 mb-3 text-center">Гамильтонов цикл</div>
                 <p>Гамильтонов цикл в графе — это подграф и цикл, который включает в себя все вершины графа. Граф, в котором есть гамильтонов цикл, называется гамильтоновым. Гамильтонов путь — это подграф-путь, который проходит через все вершины графа, не повторяясь:</p>
-                <!-- Добавление изображения -->
+                
+                <!-- Первое изображение -->
                 <div class="text-center">
-                    <img src="\static\images\cycleexample.jpg" alt="Описание изображения" style="max-width: 100%; height: auto; margin-top: 20px;">
+                    <img src="/static/images/cycleexample.jpg" alt="Три примера графов с циклом" style="max-width: 100%; height: auto; margin-top: 20px;">
                 </div>
+                
+                <!-- Текст после первого изображения -->
+                <p style="margin-top: 20px;">Если граф содержит срезанную вершину или срезанное ребро, то у него нет гамильтонова цикла. Когда срезанные вершины или ребра пересекаются, пропадает возможность вернуться, чтобы завершить цикл.</p>
+                
+                <!-- Второе изображение -->
+                <div class="text-center">
+                    <img src="/static/images/cycle2.jpg" alt="Граф без цикла" style="max-width: 100%; height: 180px; margin-top: 20px;">
+                </div>
+
+                <!-- Дополнительное текстовое поле после второго изображения -->
+                <p style="margin-top: 20px;">Дополнительный текст после второго изображения. Здесь можно добавить ещё информации или продолжить описание.</p>
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 
