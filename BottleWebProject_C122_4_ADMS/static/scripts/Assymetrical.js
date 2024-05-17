@@ -54,27 +54,6 @@ function initialize() {
     generateMatrixInputs(parseInt(document.getElementById('matrix-size').value));
 }
 
-
-document.addEventListener('DOMContentLoaded', function () {
-    const theoryBlocks = document.querySelectorAll('.theory-block');
-
-    function checkVisibility() {
-        const triggerBottom = window.innerHeight * 0.75;
-
-        theoryBlocks.forEach(block => {
-            const blockTop = block.getBoundingClientRect().top;
-
-            if (blockTop < triggerBottom) {
-                block.classList.add('scroll-animation');
-            }
-        });
-    }
-
-    window.addEventListener('scroll', checkVisibility);
-    checkVisibility(); // Проверить сразу при загрузке страницы
-});
-
-
 // Вызов функции инициализации
 initialize();
 

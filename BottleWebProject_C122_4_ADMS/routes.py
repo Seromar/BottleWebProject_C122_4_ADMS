@@ -50,3 +50,23 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/max')
+@view('max')
+def about():
+    """Renders the about page."""
+    return dict(
+        title='Максимальный поток в сети',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
+
+@route('/sbo')
+@view('asymmetryAntitransitivityReverse')
+def about():
+    """Renders the about page."""
+    return dict(
+        title='Максимальный поток в сети',
+        message='Your application description page.',
+        year=datetime.now().year
+    )

