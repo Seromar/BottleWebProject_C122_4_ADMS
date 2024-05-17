@@ -18,9 +18,7 @@
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
     <Name>BottleWebProject_C122_4_ADMS</Name>
     <RootNamespace>BottleWebProject_C122_4_ADMS</RootNamespace>
-    
     <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
-
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,8 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="graph.html" />
-    <Content Include="static\content\card.css" />
-    <Content Include="static\content\StylesheetSlup.css" />
+
     <Content Include="static\images\Artemia.jpg" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
