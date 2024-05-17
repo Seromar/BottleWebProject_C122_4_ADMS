@@ -221,16 +221,10 @@
             <div class="button-container">
                 <div class="button" onclick="generateMatrixInputs(parseInt(document.getElementById('matrix-size').value));">Решить</div>
             </div>
-
             <div class="theory-block">
             <h2>Решение</h2>
             </div>
-            
         </div>
-
-        
-        
-    </div>
     </div>
 
 
