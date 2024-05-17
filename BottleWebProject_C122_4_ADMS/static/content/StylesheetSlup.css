@@ -36,11 +36,13 @@ p, ol {
 
 .formula {
     background-color: #3E3E3E;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
+    width: 500px;
+    float: left;
 }
 
 label {
@@ -69,6 +71,7 @@ input[type="radio"] {
     border-radius: 15px;
     padding: 20px;
     display: block;
+    overflow: hidden;
 }
 
 #calculatorSection {
@@ -108,7 +111,7 @@ input[type="radio"] {
 .button {
     display: inline-block;
     background-color: #000000; 
-    color: 32CD32; 
+    color: #32CD32; 
     padding: 10px 20px;
     border-radius: 5px;
     margin-right: 10px;
