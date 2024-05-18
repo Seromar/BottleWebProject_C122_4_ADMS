@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 .card
 {
@@ -29,68 +30,76 @@ body {
 =======
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> master
 .center-container {
-    display: inline;
+    display: flex;
     justify-content: center;
+<<<<<<< HEAD
     align-items: center;
 <<<<<<< Updated upstream
    
 =======
 >>>>>>> Stashed changes
+=======
+    padding: 20px;
+>>>>>>> master
 }
 
 .card-container {
-    width: 100%;
-    max-width: 1200px; /* Ширина контейнера с карточками */
-    padding: 20px; /* Отступ внутри контейнера */
-    box-sizing: border-box; /* Учитывать padding в расчетах ширины */
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    flex-wrap: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden;
+    gap: 20px; /* Расстояние между карточками */
 }
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 
 >>>>>>> Stashed changes
+=======
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px; /* Фиксированная ширина карточки */
+    height: 500px; /* Фиксированная ширина карточки */
+}
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .card h3 {
+        margin: 15px 0 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .card h3 a {
+        margin: 0 5px;
+        color: #333;
+        text-decoration: none;
+    }
+
+        .card h3 a:hover {
+            color: #007bff;
+        }
+
+
+>>>>>>> master
 .card:hover {
     transform: scale(1.05);
     background-color: #37DA7E;
-}
-
-.card img-container {
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden; /* Обрезать изображение, если оно больше */
-}
-
-.card img {
-    max-width: 250px;
-    max-height: 400px;
-    border-radius: 8px;
-}
-
-
-.card h3,
-.card p,
-.card a {
-    margin: 10px 0;
-}
-
-    .card p:last-child {
-        margin-bottom: 0;
-    }
-
-.card a {
-    text-decoration: none;
-    color: #333;
-}
-
-.card p:last-child {
-    margin-bottom: 0;
-}
-
-.card a {
-    text-decoration: none;
-    color: #333;
-}
-
-h3 {
-    font-weight: bold;
 }

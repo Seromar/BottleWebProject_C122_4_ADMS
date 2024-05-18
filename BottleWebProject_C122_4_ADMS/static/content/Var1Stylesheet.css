@@ -2,10 +2,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0 auto; /* Центрирование по горизонтали */
     padding: 0;
-    width: 70%; /* Ширина 70% */
+    width: 90%; /* Ширина 70% */
     background-color: #000; /* Черный фон */
     color: #fff; /* Белый текст */
-    margin-top: 70px;
+    
 }
 
 .theory-block {
@@ -29,29 +29,7 @@ body {
         margin-bottom: 0;
     }
 
-.navbar-nav {
-    white-space: nowrap; /* предотвращает перенос элементов навигации на новую строку */
-}
 
-    .navbar-nav > li {
-        display: inline-block;
-        float: none; /* Сбросьте плавающие элементы */
-    }
-
-        .navbar-nav > li > a {
-            display: inline-block;
-            white-space: nowrap; /* предотвращает перенос текста внутри ссылки */
-            color: #32CD32; /* Зеленый неоновый */
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-            .navbar-nav > li > a:hover {
-                background-color: #32CD32; /* Зеленый фон при наведении */
-                color: #000; /* Черный текст при наведении */
-            }
 
 h1, h2 {
     text-align: center;
@@ -59,7 +37,7 @@ h1, h2 {
     font-size: 1.5em;
 }
 
-p, ol, li {
+p, ol {
     width: 100%;
     box-sizing: border-box;
     text-align: justify;

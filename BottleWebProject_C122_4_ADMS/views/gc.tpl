@@ -36,6 +36,25 @@
     <meta name="apple-mobile-web-app-capable" content="YES">
 
 	<style>
+       .matrix-input {
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.matrix-input:focus {
+    border-color: #32CD32; /* Зеленый неоновый */
+    outline: none;
+}
+#matrix-size option:hover {
+    background-color: #32CD32; /* Зеленый неоновый */
+    color: #ffffff;
+}   
             div.moduletable.mod-slider.bg-color.text-white::before {
                 background: black !important;
             }
@@ -120,7 +139,7 @@
         }
 
         .moduletable.mod-about .introtext {
-            color: #32CD32; /* Зеленый цвет текста */
+            color: #FFFFFF; /* Зеленый цвет текста */
         }
 
         .moduletable.mod-about .h2 {
@@ -145,7 +164,7 @@
             margin-bottom: 5px;
         }
         input[type="number"], input[type="text"] {
-            width: 100%;
+            width: 60px;
             padding: 8px;
             font-size: 16px;
             border-radius: 5px;
@@ -265,64 +284,67 @@
             </div>
         </div>
     </div>
+   <div id="calculatorSection" class="section">
+    <!-- Калькулятор -->
+    <h1 style="color: #32CD32;">Калькулятор</h1>
+  
+    <!-- Ваш HTML для калькулятора -->
+    <div style="text-align: center; display: flex; justify-content: center; align-items: center;">
+        <p class="calc" for="matrix-size" style="font-family: Arial, sans-serif; font-size: 1.2em; margin-right: 10px; color: #32CD32;">Выберите размер матрицы:</p>
+        <select id="matrix-size" style="text-align: center; font-family: Arial, sans-serif; font-size: 1.2em; background-color: white;">
+            <option value="2">2x2</option>
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+            <option value="6">6x6</option>
+            <option value="7">7x7</option>
+            <option value="8">8x8</option>
+            <option value="9">9x9</option>
+            <option value="10">10x10</option>
+        </select>
+    </div>
+    <div id="matrix-container" style="display: block; margin: 0 auto; text-align: center; font-size: 1.2em;"></div>
+    <div class="button-container" style="text-align: center; margin-top: 20px;">
+        <div class="button" style="display: inline-block; padding: 15px 30px; border: 2px solid #32CD32; border-radius: 5px; cursor: pointer; font-size: 1.2em; color: #32CD32;">Решить</div>
+    </div>
 </div>
 
 
 
+        <script>
 
+            // Функция для генерации вводов матрицы
+            function generateMatrixInputs(size) {
+                // Очистить предыдущие вводы
+                document.getElementById('matrix-container').innerHTML = '';
 
+                // Генерировать вводы для каждой строки и столбца
+                for (let i = 0; i < size; i++) {
+                    for (let j = 0; j < size; j++) {
+                        const input = document.createElement('input');
+                        input.type = 'text';
+                        input.className = 'matrix-input';
+                        input.placeholder = `${i + 1},${j + 1}`;
+                        input.addEventListener('input', function () {
+                            this.value = this.value.replace(/[^\d.-]/g, ''); // Ограничиваем ввод только числами и цифрами
+                        });
+                        document.getElementById('matrix-container').appendChild(input);
+                    }
+                    // Добавить перенос строки после каждой строки
+                    document.getElementById('matrix-container').appendChild(document.createElement('br'));
+                }
+            }
 
+            // Событие для изменения размера матрицы
+            document.getElementById('matrix-size').addEventListener('change', function () {
+                const size = parseInt(this.value);
+                generateMatrixInputs(size);
+            });
 
-
-               
-
-                <form id="graph-form" style="margin-top: 20px;">
-                    <div class="form-group" style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-                        <label for="vertex-count" style="font-size: 18px; color: #32CD32; margin-right: 10px; display: flex; align-items: center;">Количество вершин:</label>
-                        <input type="number" id="vertex-count" name="vertex-count" min="2" required style="font-size: 16px; color: #000;">
-                    </div>
-                    <div class="form-group" style="margin-bottom: 10px; text-align: center;">
-                        <label style="font-size: 18px; color: #32CD32; display: block; margin-bottom: 5px;">Матрица смежности:</label>
-                        <div id="matrix-input">
-                            <!-- JavaScript will dynamically add input fields here -->
-                        </div>
-                    </div>
-                    <div style="text-align: center;">
-                        <button type="submit" style="font-size: 18px; color: #000; background-color: #fff; border: 2px solid #32CD32; padding: 10px 20px; cursor: pointer;">Найти цикл</button>
-                    </div>
-                </form>
-
-
-
-
-                <div id="graph-container" style="display: none; margin-top: 20px;" class="wow fadeInUp">
-                    <img id="graph-image" src="" alt="Граф">
-                </div>
-
-                <div id="result-container" style="display: none; margin-top: 20px;" class="wow fadeInUp">
-                    <h2 style="font-size: 24px; color: #32CD32;">Результат</h2>
-                    <p id="result-message" style="font-size: 18px; color: #000;"></p>
-                </div>
-
-                <!-- Include Wow.js and Animate.css for animations -->
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-                <script>
-                    new WOW().init();
-                </script>
-
-
-
-                   
-                
-
-
-
-
-
-            </div>
-        </div>
-    </div>
+            // Генерировать вводы для начального размера
+            generateMatrixInputs(parseInt(document.getElementById('matrix-size').value));
+        </script>
+</div>
     <footer class="footer text-center">
         <div class="container">
             <p style="color: #f0f0f0;">&copy; 2024 Все права защищены</p>
