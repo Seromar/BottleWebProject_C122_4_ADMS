@@ -19,8 +19,14 @@
     <Name>BottleWebProject_C122_4_ADMS</Name>
     <RootNamespace>BottleWebProject_C122_4_ADMS</RootNamespace>
     <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
+<<<<<<< Updated upstream
     <InterpreterId>MSBuild|env3|$(MSBuildProjectFullPath)</InterpreterId>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+=======
+    <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env3|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env3|$(MSBuildProjectFullPath)</InterpreterId>
+>>>>>>> Stashed changes
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,6 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="graph.html" />
+<<<<<<< Updated upstream
+=======
+    <Content Include="static\content\gcstyles.css" />
+>>>>>>> Stashed changes
     <Content Include="static\content\card.css" />
     <Content Include="static\content\StylesheetSlup.css" />
     <Content Include="static\content\Var1Stylesheet.css" />

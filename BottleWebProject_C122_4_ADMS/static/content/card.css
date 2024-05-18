@@ -5,8 +5,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+<<<<<<< Updated upstream
 .card
 {
+=======
+
+.card {
+>>>>>>> Stashed changes
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
@@ -20,11 +25,18 @@ body {
     justify-content: center; /* Центрирование по горизонтали */
     align-items: center; /* Центрирование по вертикали */
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .center-container {
     display: inline;
     justify-content: center;
     align-items: center;
+<<<<<<< Updated upstream
    
+=======
+>>>>>>> Stashed changes
 }
 
 .card-container {
@@ -33,6 +45,10 @@ body {
     padding: 20px; /* Отступ внутри контейнера */
     box-sizing: border-box; /* Учитывать padding в расчетах ширины */
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .card:hover {
     transform: scale(1.05);
     background-color: #37DA7E;
