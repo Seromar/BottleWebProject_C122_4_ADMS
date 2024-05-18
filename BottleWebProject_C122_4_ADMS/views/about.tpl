@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
 <head>
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+<link rel="stylesheet" type="text/css" href="/static/content/card.css" />
+<title>Карточки авторов</title>
+=======
+=======
+>>>>>>> master
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<base href="/">
 	<meta name="author" content="Super User">
@@ -12,11 +24,19 @@
     <link rel="stylesheet" type="text/css" href="/static/content/card.css" />
 	<link href="https://gg.looknewsite.ru/assets/bootstrap.min.css" rel="stylesheet">
 	<link href="https://gg.looknewsite.ru//assets/bootstrap-select.min.css" rel="stylesheet">
+<<<<<<< HEAD
+	
+	<link href="https://gg.looknewsite.ru//assets/animate.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/Chart.min.css" rel="stylesheet">
+	<link href="https://gg.looknewsite.ru//assets/css2" rel="stylesheet">
+	
+=======
 	<link href="https://gg.looknewsite.ru//assets/owl.carousel.min.css" rel="stylesheet">
 	<link href="https://gg.looknewsite.ru//assets/animate.min.css" rel="stylesheet">
 	<link href="https://gg.looknewsite.ru//assets/Chart.min.css" rel="stylesheet">
 	<link href="https://gg.looknewsite.ru//assets/css2" rel="stylesheet">
 	<link href="https://gg.looknewsite.ru//assets/rostsayt.min.css" rel="stylesheet">
+>>>>>>> master
 	<link href="https://gg.looknewsite.ru//assets/template.css" rel="stylesheet">
 	<script src="https://gg.looknewsite.ru//assets/jquery-3.5.1.min.js"></script>
 	<script src="https://gg.looknewsite.ru//assets/jquery.validate.js"></script>
@@ -43,12 +63,15 @@
                 background: black !important;
             }
 
+<<<<<<< HEAD
+=======
          div.card-body.new-card::before {
             content: none !important;
             background: none !important;
            }
 
 
+>>>>>>> master
         .mod-slider.bg-color {
             background-color: black !important;
         }
@@ -59,6 +82,11 @@
         background-color: black;
         }
 
+<<<<<<< HEAD
+   
+
+   body {
+=======
         .center-container {
     display: inline;
     justify-content: center;
@@ -76,19 +104,26 @@
 
 
        body {
+>>>>>>> master
     background-color: black;
     background-size: cover; /* чтобы изображение занимало всю доступную область */
     background-repeat: no-repeat; /* чтобы изображение не повторялось */
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
         .mod-slider {
             background-color: black;
         }
         
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> master
         .mod-about {
             background-color: black;
         }
@@ -116,15 +151,21 @@
             }
         }
 
+<<<<<<< HEAD
+=======
         
 
+>>>>>>> master
        #top_menu .nav.menu li a:hover {
             color: #32CD32; /* Здесь указываете желаемый зеленый цвет текста */
         }
 
+<<<<<<< HEAD
+=======
 
 
 
+>>>>>>> master
         #top_menu ul {
             display: flex;
             flex-wrap: nowrap; /* запрещаем перенос элементов на новую строку */
@@ -143,6 +184,102 @@
         .title:hover {
             transform: scale(1.1); /* Увеличиваем размер текста на 10% при наведении курсора */
         }
+<<<<<<< HEAD
+           
+    }
+
+</style>
+>>>>>>> Stashed changes
+
+</head>
+<body>
+      
+        <div class="center-container">
+<<<<<<< Updated upstream
+=======
+        <div class="center-container">
+>>>>>>> Stashed changes
+            <div class="card-container">
+                <div class="card">
+                    <img src="\static\images\Artemia.jpg" alt="Изображение Артемия">
+                    <h3>Афанасовский Артемий Рустамович</h3>
+                    <p>Артемий - разработчик со страстью к творчеству. Он любит создавать креативные проекты.</p>
+<<<<<<< Updated upstream
+                    <h3>
+                        <a href="https://web.telegram.org/a/#1059657464"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
+                        <a href="https://vk.com/flannel_butterfly"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                     </h3>
+=======
+                    <h1>
+                        <div href="https://web.telegram.org/a/#1059657464"><i class="fab fa-telegram" title="Go to Telegram brand"></i></div>
+                        <a href="https://vk.com/flannel_butterfly"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                     </h1>
+>>>>>>> Stashed changes
+                </div>
+
+                <div class="card">
+                    <img src="\static\images\Dinar.jpeg" alt="Изображение автора">
+                    <h3>Дарский Динар Маратович</h3>
+                    <p>Динар - разработчик с достаточно большим опытом работы с клиентами. Он умеет расположить к себе и добиться всего необходимого.</p>
+<<<<<<< Updated upstream
+                    <h3>
+                        <a href="https://web.telegram.org/a/#1115007593"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
+                        <a href="https://vk.com/darik097"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                    </h3>
+=======
+                    <h1>
+                        <a href="https://web.telegram.org/a/#1115007593"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
+                        <a href="https://vk.com/darik097"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                    </h1>
+>>>>>>> Stashed changes
+                </div>
+
+                <div class="card">
+                    <img src="\static\images\Said.jpeg" alt="Изображение автора">
+                    <h3>Мельзетдинов Саид Ильдарович</h3>
+                    <p>Саид - дизайнер с тонким вкусом и визуальным мышлением. Он создает удивительные макеты и концепции, которые вдохновляют жить дальше.</p>
+<<<<<<< Updated upstream
+                    <h3>
+                        <a href="https://web.telegram.org/a/#1130318202"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
+                        <a href="https://vk.com/lilsaidd"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                    </h3>
+=======
+                    <h1>
+                        <a href="https://web.telegram.org/a/#1130318202"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
+                        <a href="https://vk.com/lilsaidd"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                    </h1>
+>>>>>>> Stashed changes
+                </div>
+            
+
+                <div class="card">
+                    <img src="\static\images\Slupchuk.jpg" alt="Изображение автора">
+                    <h3>Слупчук Егор Артемович</h3>
+                    <p>Егор - писатель и исследователь сферы искусственного интеллекта. Его работы раскрывают потенциал технологий и будущие возможности.</p>
+<<<<<<< Updated upstream
+                    <h3>
+                        <a href="https://t.me/EgorSlou"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
+                        <a href="https://vk.com/egorslup"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                    </h3>
+                </div>
+
+            </div>
+=======
+                    <h1>
+                        <a href="https://t.me/EgorSlou"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
+                        <a href="https://vk.com/egorslup"><i class="fab fa-vk" title="Go to VK brand"></i></a>
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <p style="color: #f0f0f0;">&copy; 2024 Все права защищены</p>
+>>>>>>> Stashed changes
+=======
 
         .center-container {
     display: flex;
@@ -247,6 +384,7 @@
                 <a href="https://web.telegram.org/a/#1059657464"><i class="fab fa-telegram" title="Go to Telegram brand"></i></a>
                 <a href="https://vk.com/flannel_butterfly"><i class="fab fa-vk" title="Go to VK brand"></i></a>
             </h3>
+>>>>>>> master
         </div>
 
         <div class="card">

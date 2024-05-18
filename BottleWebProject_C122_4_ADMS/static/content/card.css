@@ -5,10 +5,45 @@ body {
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+.card
+{
+=======
+
+.card {
+>>>>>>> Stashed changes
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    overflow: hidden; /* Обрезать изображение, если оно больше */
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+}
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+=======
+>>>>>>> master
 .center-container {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
+    align-items: center;
+<<<<<<< Updated upstream
+   
+=======
+>>>>>>> Stashed changes
+=======
     padding: 20px;
+>>>>>>> master
 }
 
 .card-container {
@@ -19,6 +54,12 @@ body {
     overflow: hidden;
     gap: 20px; /* Расстояние между карточками */
 }
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+=======
 
 .card {
     background-color: #fff;
@@ -57,6 +98,7 @@ body {
         }
 
 
+>>>>>>> master
 .card:hover {
     transform: scale(1.05);
     background-color: #37DA7E;
