@@ -1,16 +1,13 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr">
 <head>
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Свойства Бинарных Отношений(СБО)</title> 
     <link rel="stylesheet" href="static/content/StylesheetSlup.css">
     <script src="static/scripts/Assymetrical.js"></script>
-=======
-=======
->>>>>>> master
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<base href="/sbo">
 	<meta name="author" content="Super User">
@@ -149,19 +146,8 @@
             transform: scale(1.1); /* Увеличиваем размер текста на 10% при наведении курсора */
         }
 
-
-<<<<<<< HEAD
     </style>
 
->>>>>>> Stashed changes
-=======
-
-
-
-
-    </style>
-
->>>>>>> master
 </head>
 <body class="home" cz-shortcut-listen="true">
     <script type="text/javascript">
